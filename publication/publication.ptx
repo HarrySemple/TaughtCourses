@@ -50,10 +50,11 @@
     <!-- The next elements say how the levels deep to break up the    -->
     <!-- numbering of the respective elements. Can't be more than the -->
     <!-- @level on divisions above.                                   -->
-    <blocks level="2" />
-    <projects level="2" />
-    <equations level="2" />
-    <footnotes level="2" />
+    <blocks level="0" />
+    <projects level="0" />
+    <equations level="0" />
+    <footnotes level="0" />
+    <divisions part-structure="decorative" chapter-start="1" level="0"/>
   </numbering>
 
   <!-- LaTeX specific options: set @print="yes" to get pdf set up   -->
@@ -105,7 +106,7 @@
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
     <css
         style="default"
-        colors="blue_red"
+        colors="pastel_blue_orange"
         knowls="default"
         toc="default"
         banner="default"
